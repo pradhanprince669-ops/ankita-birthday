@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#1b102b">
+    <meta name="description" content="A special birthday surprise for Ankita Priyadarshini Sahoo.">
+
+    <title>For MY EVERYTHING ❤️ | Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <div id="background-effects" aria-hidden="true"></div>
+
+    <!-- Fireworks canvas -->
+    <canvas id="fireworks-canvas" aria-hidden="true"></canvas>
+
+    <!-- Music controls -->
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle background music">
+        ♪ <span id="music-status">Music Off</span>
+    </button>
+
+    <!-- =========================================
+         PAGE 1: COUNTDOWN
+    ========================================== -->
+
+    <main>
+
+        <section id="countdown-page" class="page active">
+
+            <div class="countdown-content">
+
+                <div class="eyebrow">
+                    ✧ A LITTLE SURPRISE IS WAITING ✧
+                </div>
+
+                <div class="moon-decoration" aria-hidden="true">☾</div>
+
+                <h1 class="countdown-heading">
+                    Something Beautiful<br>
+                    Is Coming...
+                </h1>
+
+                <p class="countdown-subtitle">
+                    A little magic, a little love,<br>
+                    and a special day made just for you.
+                </p>
+
+                <div class="countdown-card">
+
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <small>Days</small>
+                    </div>
+
+                    <div class="countdown-separator">:</div>
+
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <small>Hours</small>
+                    </div>
+
+                    <div class="countdown-separator">:</div>
+
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <small>Minutes</small>
+                    </div>
+
+                    <div class="countdown-separator">:</div>
+
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <small>Seconds</small>
+                    </div>
+
+                </div>
+
+                <p class="countdown-date">
+                    ♡ November 25, 2026 · 12:00 AM IST ♡
+                </p>
+
+                <div class="countdown-heart" aria-hidden="true">
+                    ♥
+                </div>
+
+                <p class="loading-message">
+                    Every beautiful moment is worth waiting for.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 2: HAPPY BIRTHDAY
+        ========================================== -->
+
+        <section id="birthday-page" class="page">
+
+            <div class="page-content birthday-content">
+
+                <img
+                    src="wishes card.jpg.jpeg"
+                    alt="Birthday memory"
+                    class="wishes-photo"
+                >
+                    
+                <p class="eyebrow">✧ TODAY IS YOUR DAY ✧</p>
+
+                <div class="birthday-sparkle" aria-hidden="true">
+                    ✨
+                </div>
+
+                <h1 class="birthday-title">
+                    Happy Birthday
+                </h1>
+
+                <h2 class="birthday-name">
+                    MY PRINCESS
+                </h2>
+
+                <div class="heart-divider">♡ ── ♡ ── ♡</div>
+
+                <p class="birthday-message">
+                    May your life always be filled with beautiful
+                    moments, endless happiness, and dreams that
+                    come true. May your smile shine brighter
+                    than every star in the sky.
+                </p>
+
+                <p class="birthday-highlight">
+                    Today, the world celebrates YOU. 💖
+                </p>
+
+                <button class="primary-button" data-next="cake-page">
+                    Open Your Surprise <span>♡</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 3: BIRTHDAY CAKE
+        ========================================== -->
+
+        <section id="cake-page" class="page">
+
+            <div class="page-content cake-content">
+
+                <p class="eyebrow">✧ MAKE A WISH ✧</p>
+
+                <h2 class="section-title">
+                    A Cake Just For You
+                </h2>
+
+                <p class="section-description">
+                    Close your eyes, make a beautiful wish,
+                    and let the magic begin.
+                </p>
+
+                <!-- Cake illustration is styled in CSS -->
+                <div class="cake-scene">
+
+                    <div class="cake-glow"></div>
+
+                    <div class="cake">
+
+                        <div class="candle-row">
+
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="cake-top">
+
+                            <div class="icing-drip drip-one"></div>
+                            <div class="icing-drip drip-two"></div>
+                            <div class="icing-drip drip-three"></div>
+                            <div class="icing-drip drip-four"></div>
+
+                            <div class="cake-decoration">♥</div>
+
+                        </div>
+
+                        <div class="cake-layer cake-layer-middle">
+                            <div class="cream-line"></div>
+                            <div class="cream-line cream-line-bottom"></div>
+                        </div>
+
+                        <div class="cake-layer cake-layer-bottom">
+                            <div class="cream-line"></div>
+                            <div class="cream-line cream-line-bottom"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="cake-plate"></div>
+
+                </div>
+
+                <button id="blow-candles" class="primary-button">
+                    Blow the Candles 🕯️
+                </button>
+
+                <p id="candle-message" class="candle-message" aria-live="polite">
+                    Make a wish before blowing out the candles.
+                </p>
+
+                <button class="secondary-button" data-next="letter-page">
+                    Continue to Your Letter →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 4: BIRTHDAY LETTER
+        ========================================== -->
+
+        <section id="letter-page" class="page">
+
+            <div class="page-content letter-content">
+
+                <p class="eyebrow">✧ A FEW WORDS FOR YOU ✧</p>
+
+                <div class="letter-card">
+
+                    <img
+                        src="letter card.jpg.jpeg"
+                        alt="Birthday memory"
+                        class="letter-photo"
+                    >
+
+                    <div class="letter-decoration">💌</div>
+
+                    <h2 class="letter-heading">
+                        A Little Letter
+                    </h2>
+
+                    <div class="letter-line"></div>
+
+                    <div id="letter-text" class="letter-text">
+
+                        <p>Dear Wifyee,</p>
+
+                        <p>
+                            On your special day, I wish you all the
+                            happiness that your heart can hold.
+                        </p>
+
+                        <p>
+                            May you always find reasons to smile,
+                            courage to follow your dreams, and
+                            beautiful moments that make life
+                            unforgettable.
+                        </p>
+
+                        <p>
+                            You deserve kindness, laughter, success,
+                            and all the wonderful things life has to offer.
+                        </p>
+
+                        <p>
+                            May this new chapter bring you countless
+                            reasons to be happy.
+                        </p>
+
+                        <p class="letter-signature">
+                            With warm wishes and lots of love, ♡
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button class="primary-button" data-next="rose-page">
+                    A Little More Magic ✨
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 5: ROSE PETALS
+        ========================================== -->
+
+        <section id="rose-page" class="page rose-page">
+
+            <div id="petal-container" aria-hidden="true"></div>
+
+            <div class="page-content rose-content">
+
+                <div class="rose-emoji" aria-hidden="true">🌹</div>
+
+                <p class="eyebrow">✧ A GARDEN OF WISHES ✧</p>
+
+                <h2 class="section-title rose-title">
+                    A Thousand Little Wishes
+                </h2>
+
+                <p class="rose-message">
+                    If every rose could carry a wish for you,
+                    the whole world would become a garden
+                    filled with happiness.
+                </p>
+
+                <p class="rose-quote">
+                    "May you always bloom in your own beautiful way."
+                </p>
+
+                <button class="primary-button" data-next="gallery-page">
+                    Continue the Journey →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 6: PHOTO GALLERY
+             Photos can be added later.
+        ========================================== -->
+
+        <section id="gallery-page" class="page">
+
+            <div class="page-content gallery-content">
+
+                <p class="eyebrow">✧ BEAUTIFUL MOMENTS ✧</p>
+
+                <h2 class="section-title">
+                    A Little Space for Memories
+                </h2>
+
+                <p class="section-description">
+                    Every picture tells a story.
+                    Let's make this space yours.
+                </p>
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-card gallery-card-one">
+                        <img src="photo 1.jpg.jpeg" alt="Birthday memory 1">
+                    </div>
+
+                    <div class="gallery-card gallery-card-two">
+                        <img src="photo 2.jpg.jpeg" alt="Birthday memory 1">
+                    </div>
+
+                    <div class="gallery-card gallery-card-three">
+                        <img src="photo 3.jpg.jpeg" alt="Birthday memory 1">
+                    </div>
+
+                    <div class="gallery-card gallery-card-four">
+                        <img src="photo 4.jpg.jpeg" alt="Birthday memory 1">
+                    </div>
+
+                    <div class="gallery-card gallery-card-five">
+                        <img src="photo 5.jpg.jpeg" alt="Birthday memory 1">
+                    </div>
+
+                    <div class="gallery-card gallery-card-six">
+                        <img src="photo 6.jpg.jpeg" alt="Birthday memory 1">
+                    </div>
+
+                </div>
+
+                <p class="gallery-note">
+                    Photo gallery coming to life in the next version. ♡
+                </p>
+
+                <button class="primary-button" data-next="reasons-page">
+                    Discover Something Special →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 7: TEN SPECIAL REASONS
+        ========================================== -->
+
+        <section id="reasons-page" class="page">
+
+            <div class="page-content reasons-content">
+
+                <p class="eyebrow">✧ TEN LITTLE REMINDERS ✧</p>
+
+                <h2 class="section-title">
+                    10 Things That Make You Special
+                </h2>
+
+                <p class="section-description">
+                    Ten little reminders of the beautiful
+                    things that make someone special.
+                </p>
+
+                <div class="reasons-grid">
+
+                    <article class="reason-card">
+                        <span>01</span>
+                        <h3>Your Smile</h3>
+                        <p>A smile that can brighten an ordinary day.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>02</span>
+                        <h3>Your Kindness</h3>
+                        <p>The little things you do can mean so much.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>03</span>
+                        <h3>Your Uniqueness</h3>
+                        <p>There is only one you, and that is wonderful.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>04</span>
+                        <h3>Your Dreams</h3>
+                        <p>Your dreams deserve every chance to grow.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>05</span>
+                        <h3>Your Strength</h3>
+                        <p>You can keep growing through life's challenges.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>06</span>
+                        <h3>Your Laughter</h3>
+                        <p>May you always have reasons to laugh freely.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>07</span>
+                        <h3>Your Heart</h3>
+                        <p>Never underestimate the good you bring to others.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>08</span>
+                        <h3>Your Potential</h3>
+                        <p>There are so many wonderful things ahead of you.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>09</span>
+                        <h3>Your Energy</h3>
+                        <p>Your presence can make moments feel brighter.</p>
+                    </article>
+
+                    <article class="reason-card">
+                        <span>10</span>
+                        <h3>Simply You</h3>
+                        <p>You don't need to be anyone other than yourself.</p>
+                    </article>
+
+                </div>
+
+                <button class="primary-button" data-next="gift-page">
+                    One Last Surprise 🎁
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 8: GIFT BOX
+        ========================================== -->
+
+        <section id="gift-page" class="page">
+
+            <div class="page-content gift-content">
+
+                <p class="eyebrow">✧ SOMETHING JUST FOR YOU ✧</p>
+
+                <h2 class="section-title">
+                    A Little Gift of Happiness
+                </h2>
+
+                <p class="section-description">
+                    There's one more little surprise waiting.
+                </p>
+
+                <button id="gift-button" class="gift-button"
+                    aria-label="Open your birthday gift">
+
+                    <span class="gift-bow">🎀</span>
+                    <span class="gift-box-emoji">🎁</span>
+                    <span class="gift-open-label">Tap to Open</span>
+
+                </button>
+
+                <div id="gift-message" class="gift-message" aria-live="polite">
+
+                    <h3>For You, My Cutiepie ♡</h3>
+
+                    <p>
+                        May this year bring new adventures,
+                        beautiful opportunities, peaceful days,
+                        and countless reasons to smile.
+                    </p>
+
+                    <p class="gift-final-line">
+                        You deserve a beautiful year ahead. 💖
+                    </p>
+
+                </div>
+
+                <button class="primary-button" data-next="finale-page">
+                    See Your Final Surprise ✨
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PAGE 9: GRAND FINALE
+        ========================================== -->
+
+        <section id="finale-page" class="page finale-page">
+
+            <div class="page-content finale-content">
+
+                <div class="finale-stars" aria-hidden="true">
+                    ✦　✧　⋆　✧　✦
+                </div>
+
+                <p class="eyebrow">✧ WITH ALL THE BEST WISHES ✧</p>
+
+                <h1 class="finale-title">
+                    Happy Birthday
+                </h1>
+
+                <h2 class="finale-name">
+                    MY DARLING
+                </h2>
+
+                <div class="finale-heart">♡</div>
+
+                <p class="finale-message">
+                    May your days be bright, your heart be happy,
+                    your dreams be big, and your future be beautiful.
+                </p>
+
+                <p class="finale-wish">
+                    Here's to another year of wonderful possibilities. ✨
+                </p>
+
+                <button id="final-fireworks" class="primary-button">
+                    Celebrate Again 🎆
+                </button>
+
+                <p class="made-with-love">
+                    Made with <span>♥</span> by Prince
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <audio id="background-music" src="magical_happy_birthday_tune.aac" loop preload="auto"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
